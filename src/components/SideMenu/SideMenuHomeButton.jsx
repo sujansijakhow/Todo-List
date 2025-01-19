@@ -1,4 +1,10 @@
-const SideMenuHomeButton = ({ todoList }) => {
+
+import { useContext } from "react";
+import todoListContext from "../../Contexts/TodoListContext";
+
+const SideMenuHomeButton = () => {
+
+    const { todoList }= useContext(todoListContext)
     return (
         <div className='w-full p-2 cursor-pointer hover:bg-gray-100 flex flex-row items-center justify-between'>
             <span>Home</span>
