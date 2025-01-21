@@ -11,4 +11,4 @@ const TodoList = ({ todoList }) => {
     )
 }
 
-export default TodoListItem;
+export default TodoList;
