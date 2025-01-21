@@ -21,7 +21,7 @@ const TodoComponent = () => {
             </div>
             <div>
                 <TodoAddForm submitHandler={handleSumbit}/>
-                <todoList todoList={todoList}/>
+                <TodoList todoList={todoList}/>
             </div>
 
         </div>
