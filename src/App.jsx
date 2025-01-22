@@ -1,4 +1,5 @@
 import SideMenu from "./components/SideMenu/SideMenu";
+import Content from "./components/Content";
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <div className="h-screen w-screen flex">
         <SideMenu />
+        <Content />
       </div>
     </>
   )
