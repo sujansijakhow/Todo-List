@@ -8,7 +8,7 @@ function App() {
   
   return (
     <>
-      <div className="h-screen w-screen flex">
+      <div className="md:h-screen w-screen flex">
         <SideMenu />
         <Content />
       </div>
@@ -16,4 +16,4 @@ function App() {
   )
 }
 
-export default App
+export default App  
