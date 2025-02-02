@@ -9,6 +9,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <TodoListProvider>
       {/* <App /> */}
-    </TodoListProvider>
+    </TodoListProvider> 
   </React.StrictMode>,
 )
