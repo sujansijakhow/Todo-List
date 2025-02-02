@@ -1,19 +1,14 @@
-import { useState } from 'react';
-import Content from './components/Content';
-import SideMenu from './components/SideMenu/SideMenu';
+import SideMenu from "./components/SideMenu/SideMenu";
 
 function App() {
-  
 
-  
   return (
     <>
-      <div className="md:h-screen w-screen flex">
+      <div className="h-screen w-screen flex">
         <SideMenu />
-        <Content />
       </div>
     </>
   )
 }
 
-export default App  
+export default App;

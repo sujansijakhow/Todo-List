@@ -1,11 +1,16 @@
 {
+<<<<<<< HEAD
   "name": "06-context_api_test",
+=======
+  "name": "todolist",
+>>>>>>> 4c89232abb94d0f6e26e302dd98729020428f8b3
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -25,5 +30,19 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.0"
+=======
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.5"
+>>>>>>> 4c89232abb94d0f6e26e302dd98729020428f8b3
   }
 }
