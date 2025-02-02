@@ -11,7 +11,7 @@ const TodoListProvider = () => {
         },
         {
           todo: "Complete homework",
-          completed: false,
+          completed: false, 
         },
       ]);
     
